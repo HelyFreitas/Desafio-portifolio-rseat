@@ -1,0 +1,91 @@
+.container-card2 {
+  width: 680px;
+
+  padding: 40px 0 40px 30px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+
+  header {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    h1 {
+      font-family: "Merriweather Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+
+      color: #837e9f;
+    }
+  }
+
+  main {
+    p {
+      font-family: "Merriweather Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      /* or 143% */
+
+      color: #837e9f;
+    }
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div {
+      display: flex;
+      align-items: center;
+
+      section {
+        padding-right: 25px;
+
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        color: #837e9f;
+      }
+    }
+
+    .section {
+      padding-right: 25px;
+
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
+      span {
+        width: 15px;
+        height: 15px;
+
+        background-color: #e7de79;
+
+        border-radius: 100%;
+        border: 2px solid #837e9f;
+      }
+
+      p {
+        font-family: "Merriweather Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+
+        color: #837e9f;
+      }
+    }
+  }
+}

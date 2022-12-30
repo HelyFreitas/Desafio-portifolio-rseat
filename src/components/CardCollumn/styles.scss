@@ -1,0 +1,48 @@
+.container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+
+  width: 342px;
+  padding: 20px 20px;
+
+  h1 {
+    font-family: "Merriweather Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+    color: #837e9f;
+  }
+
+  ul{
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  li {
+    font-family: "Merriweather Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #837e9f;
+  }
+
+  p {
+    font-family: "Merriweather Sans";
+    font-style: normal;
+    font-weight: 0;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #837e9f;
+  }
+}

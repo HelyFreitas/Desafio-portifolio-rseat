@@ -1,0 +1,25 @@
+.card-container {
+  width: 90px;
+
+  padding: 7px 0px;
+  background-color: #CB92B1;
+
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-family: "Merriweather Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+
+    color: #000000;
+
+    text-transform: uppercase;
+  }
+}
